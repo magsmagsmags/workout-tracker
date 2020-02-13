@@ -9,7 +9,7 @@ A workout tracker with a Mongo database, Mongoose schema, and handles routes wit
 ## User Story
 
 ```
-* As a user, I want to be able to view create and track daily workouts.
+As a user, I want to be able to view create and track daily workouts.
 I want to be able to continue worksout I paused.
 I want to add exercises to a previous workout plan.
 I want to add new exercises to a new workout plan.
