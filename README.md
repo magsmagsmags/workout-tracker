@@ -2,6 +2,9 @@
 
 A workout tracker with a Mongo database, Mongoose schema, and handles routes with Express.
 
+## Repository
+* https://github.com/magsmagsmags/workout-tracker
+
 
 ## User Story
 
