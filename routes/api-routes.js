@@ -1,4 +1,4 @@
-// created by mags
+
 
 //////////////////////////////////////////////////////////
 //// dependencies
@@ -14,14 +14,18 @@ let mongoose = require("mongoose");
 var db = require("../models");
 
 module.exports = function (app) {
-    // Creating new workout in the database
+    //////////////////////////////////////////
+    //// making new workout in db
+    //////////////////////////////////////////
     app.post("/api/workouts", (req, res) => {
         db.Workout.create(req.body).then(response => {
             res.json(response);
         });
     });
 
-    // Getting most recent workout
+    //////////////////////////////////////////
+    //// most recent workouts from db
+    //////////////////////////////////////////
     app.get("/api/workouts", (req, res) => {
         db.Workout.find({})
             .then(dbWorkout => {
@@ -32,7 +36,9 @@ module.exports = function (app) {
             });
     });
 
-    // Adding new exercise to existing workout
+    //////////////////////////////////////////
+    //// new exercise to existing workout
+    //////////////////////////////////////////
     app.post("/api/workouts/:_id", (req, res) => {
         let exercises = {
             type: req.body.type,
@@ -51,7 +57,6 @@ module.exports = function (app) {
                     exercises
                 }
             })
-            //   .then(({}) => db.Workout.findOneAndUpdate({_id: mongojs.ObjectId(req.params.id)}, { $set: { exercises } }, { new: true }))
             .then(dbWorkout => {
                 res.json(dbWorkout);
             })
@@ -60,7 +65,9 @@ module.exports = function (app) {
             });
     });
 
-    // Viewing workout stats
+    //////////////////////////////////////////
+    //// READ workout stats
+    //////////////////////////////////////////
     app.get("/api/workouts/range", (req, res) => {
         db.Workout.find({})
             .then(dbWorkout => {
