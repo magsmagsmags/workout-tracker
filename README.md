@@ -1,11 +1,5 @@
 ## Workout Tracker
 
-A workout tracker with a Mongo database, Mongoose schema, and handles routes with Express.
-
-## Repository
-* https://github.com/magsmagsmags/workout-tracker
-
-
 ## User Story
 
 ```
@@ -15,13 +9,21 @@ I want to add exercises to a previous workout plan.
 I want to add new exercises to a new workout plan.
 ```
 
+A workout tracker with a Mongo database, Mongoose schema, and handles routes with Express.
+
+## Heroku Deployed Link
+* https://magsmagsmags-workout-tracker.herokuapp.com/
+* https://github.com/magsmagsmags/workout-tracker
+
+## Github Repository
+* https://github.com/magsmagsmags/workout-tracker
 
 ## Business Context
 
 A consumer will reach their fitness goals quicker when they track their workout progress.
 
 
-## Acceptance Criteria
+## Functionality of the Live Application
 
 When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
 
@@ -35,7 +37,4 @@ The user should be able to:
 ## Screenshots
 
 * Title
-![Screenshot](/folder/filename.type)
-
-* Title
-![Screenshot](/folder/filename.type)
+![Screenshot](./screenshot.png)
