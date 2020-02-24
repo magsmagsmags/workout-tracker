@@ -13,7 +13,6 @@ A workout tracker with a Mongo database, Mongoose schema, and handles routes wit
 
 ## Heroku Deployed Link
 * https://magsmagsmags-workout-tracker.herokuapp.com/
-* https://github.com/magsmagsmags/workout-tracker
 
 ## Github Repository
 * https://github.com/magsmagsmags/workout-tracker
