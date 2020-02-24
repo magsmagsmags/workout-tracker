@@ -36,5 +36,4 @@ The user should be able to:
 
 ## Screenshots
 
-* Title
 ![Screenshot](./screenshot.png)
