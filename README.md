@@ -1,5 +1,7 @@
 ## Workout Tracker
 
+![Screenshot](./screenrecord2.gif)
+
 ## User Story
 
 ```
@@ -33,7 +35,7 @@ The user should be able to:
   * Add new exercises to a new workout plan.
 
 
-## Screenshots
+## Screenshots of the Application
 
 ![Screenshot](./screenshot.png)
 
