@@ -36,3 +36,5 @@ The user should be able to:
 ## Screenshots
 
 ![Screenshot](./screenshot.png)
+
+![Screenshot](./screenshot2.png)
