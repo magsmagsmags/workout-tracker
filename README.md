@@ -37,6 +37,4 @@ The user should be able to:
 
 ## Screenshots of the Application
 
-![Screenshot](./screenshot.png)
-
 ![Screenshot](./screenshot2.png)
